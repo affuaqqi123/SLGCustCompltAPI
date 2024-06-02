@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Application\\SLG.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Application\\SLG.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Application\\SLG.Application.csproj",
+        "projectName": "SLG.Application",
+        "projectPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Application\\SLG.Application.csproj",
+        "packagesPath": "C:\\Users\\AqeMoham\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AqeMoham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Domain\\SLG.Domain.csproj": {
+                "projectPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Domain\\SLG.Domain.csproj"
+              },
+              "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Shared\\SLG.Shared.csproj": {
+                "projectPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Shared\\SLG.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Domain\\SLG.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Domain\\SLG.Domain.csproj",
+        "projectName": "SLG.Domain",
+        "projectPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Domain\\SLG.Domain.csproj",
+        "packagesPath": "C:\\Users\\AqeMoham\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AqeMoham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Resources\\SLG.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Resources\\SLG.Resources.csproj",
+        "projectName": "SLG.Resources",
+        "projectPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Resources\\SLG.Resources.csproj",
+        "packagesPath": "C:\\Users\\AqeMoham\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AqeMoham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Shared\\SLG.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Shared\\SLG.Shared.csproj",
+        "projectName": "SLG.Shared",
+        "projectPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Shared\\SLG.Shared.csproj",
+        "packagesPath": "C:\\Users\\AqeMoham\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AqeMoham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Domain\\SLG.Domain.csproj": {
+                "projectPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Domain\\SLG.Domain.csproj"
+              },
+              "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Resources\\SLG.Resources.csproj": {
+                "projectPath": "C:\\GitHub\\New folder\\SLGCustCompltAPI\\src\\SLG.Resources\\SLG.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

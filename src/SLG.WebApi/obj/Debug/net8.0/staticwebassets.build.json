@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "paY2zAaPeKrieKAM3pzLOYV8u5+2bHZpgpmCreS/kS8=",
+  "Source": "SLG.WebApi",
+  "BasePath": "_content/SLG.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
